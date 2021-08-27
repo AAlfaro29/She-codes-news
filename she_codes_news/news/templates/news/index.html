@@ -8,9 +8,13 @@
     
     {% block content %}
        
-        
+    <a href="{% url 'news:newStory' %}">Write New Story</a> 
         <h2>Latest News</h2>
-        
+    
+        <form class="add_your_class" method="GET" action="" >
+            <input class="add_your_class" type="search" name="search"> 
+            <button class="add_your_class" type="submit"> Search </button>
+        </form>
 
     <div id="latest-stories">
         {% if latest_stories %}
