@@ -1,4 +1,5 @@
 venv/*
-__pycache__/
+__pycache__p/
 *.sqlite3
 *.vscode
+staticfiles
